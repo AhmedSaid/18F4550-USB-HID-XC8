@@ -44,12 +44,10 @@
 //#include <io_mapping.h>
 //#include <fixed_address_memory.h>
 //#include <power.h>
-#if defined(__18F14K50)
-    #include "../BSP-FILES/lpcudk_14K50.h"
+#if defined(__18F2550)
+    #include "../config_18F2550.h"
 #elif defined(__18F4550)
-    #include "../BSP-FILES/pdfusb_4550.h"
-#elif defined(__18F27J53)
-    #include "../BSP-FILES/pdusb_27j53.h"
+    #include "../config_18F4550.h"
 
 #else
     #warning "which PIC ???"
