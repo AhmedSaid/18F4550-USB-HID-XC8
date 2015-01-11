@@ -18,7 +18,7 @@
       <itemPath>../src/usb/usb_hal.h</itemPath>
       <itemPath>../src/usb/usb_hal_pic18.h</itemPath>
       <itemPath>../src/usb/src/usb_device_local.h</itemPath>
-      <itemPath>../src/config_18F4550.h</itemPath>
+      <itemPath>../config_18F4550.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -33,7 +33,7 @@
       <itemPath>../src/usb_descriptors.c</itemPath>
       <itemPath>../src/usb/src/usb_device.c</itemPath>
       <itemPath>../src/usb/src/usb_device_hid.c</itemPath>
-      <itemPath>../src/config_18F4550.c</itemPath>
+      <itemPath>../config_18F4550.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -42,8 +42,7 @@
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
-    <Elem>../src</Elem>
-    <Elem>../BSP-FILES</Elem>
+    <Elem>..</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
